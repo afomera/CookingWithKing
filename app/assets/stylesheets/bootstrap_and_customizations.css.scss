@@ -1,21 +1,37 @@
 @import url(http://fonts.googleapis.com/css?family=Orbitron:500,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
-$body-bg: #7f8c8d;
+$body-bg: #ecf0f1;
 $font-family-sans-serif:               'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-inverse-bg: #2c3e50;
+$navbar-height: 60px;
+$navbar-inverse-link-color: white;
+$brand-primary: #c0392b;
+$jumbotron-bg: white;
 $well-bg: white;
-$navbar-bg: green;
 
 @import 'bootstrap';
-
-.navbar-brand {
-	font-weight: bold;
-	font-family: 'Orbitron' , 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
 
 .center {
 	text-align: center;
 }
+.navbar-brand {
+  font-weight: bold;
+  font-family: 'Orbitron' , 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
 .navbar-links {
-padding-top: 10px;
+padding-top: 15px;
+}
+
+.infowell {
+	background: #ecf0f1;
+	color: black;
+	font-family: 'Orbitron' , 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+.footerwell {
+	background: white;
+	color: black;
+	font-family: 'Orbitron' , 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
 }
