@@ -1,8 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Orbitron:500,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
-$body-bg: #ecf0f1;
+$body-bg: #7f8c8d;
 $font-family-sans-serif:               'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
-
+$well-bg: white;
+$navbar-bg: green;
 
 @import 'bootstrap';
+
+.navbar-brand {
+	font-weight: bold;
+	font-family: 'Orbitron' , 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.center {
+	text-align: center;
+}
+
+.navbar-links {
+padding-top: 10px;
+}
