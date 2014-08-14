@@ -1,5 +1,7 @@
 CookingWithKing::Application.routes.draw do
   root 'pages#home'
+  get 'suggestions' => 'pages#suggestions'
+  get 'suggest' => 'pages#suggestions'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
